@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+
+    padding: 20px;
+    font-size: 25px;
+}
+h1 {
+    text-align: center;
+    padding: 10px;
+    color: antiquewhite;
+
+    
+}
+p {
+    text-align: center;
+    color: antiquewhite;
+    text-transform: capitalize;
+    
+}
+
+
+
+body {
+    font-family:'Zen Dots', cursive;;
+    background-image: url(/img/hero.jpg);
+}
+
+
+.score-board {
+    border: 3px solid antiquewhite;
+    border-radius: 4px;
+    margin: 30px auto;
+    width: 300px;
+    text-align: center;
+    font-size: 55px;
+    color: antiquewhite;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.badge {
+    background: rgba(246, 6, 2, 0.468);
+    border-radius: 30%;
+    font-size: 15px;
+    padding: 4px 12px;
+}
+
+#user-label {
+    position: absolute;
+    right: 330px;
+    font-size: 35px;
+}
+
+#computer-label {
+    position: absolute;
+    left: 330px;
+    font-size: 35px;
+}
+
+.result {
+    font-size: 40px;
+
+}
+
+.choices {
+    text-align: center;
+    margin: 90px 0;
+}
+
+img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+
+    
+}
+
+.choice {
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+    
+}
+
+.action {
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+.writing {
+    padding-top: 20px;
+}
+
+
+
